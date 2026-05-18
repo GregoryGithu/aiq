@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(uv --version)",
+      "Bash(bash scripts/setup.sh)",
+      "Bash(uv sync *)"
+    ]
+  }
+}
